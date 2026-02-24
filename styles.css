@@ -1,0 +1,11 @@
+p, h1, h2 {
+  color:red;
+  font-size: 14px;
+  
+}
+
+ul li {font-style:italic}
+a {color:blue}
+a:hover {color:purple}
+.int-link, ol p {font-weight:bold}    
+    
