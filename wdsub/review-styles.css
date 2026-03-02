@@ -1,0 +1,48 @@
+body {
+  margin:0px;
+  font-size:17px;
+  font-family: Onest, sans-serif;
+  background-color:#0B2E55;
+}
+
+h1, h2 {
+  font-family: 'Londrina Shadow', sans-serif;
+  font-size:2rem;
+}
+
+h1 {
+  font-family: Onest, sans-serif;
+  font-size: 50px;
+  text-align:center;
+  color:white;
+}
+
+div.card {
+  background-color:#87ABD5;
+  margin-left: 130px;
+  margin-right:130px;
+  padding:0.3rem;
+  border-radius:8px;
+  border: solid 3px 
+}
+
+hr {
+  margin-left: 130px;
+  margin-right: 130px;
+  border-color: white
+}
+
+#footer p {
+  color:white;
+  text-align:center
+}
+
+a {
+  color: #0B2E55;
+  font-weight:bold;
+  text-decoration:none
+}
+a:hover {color:white}
+
+#home:hover {color:black}
+#home {color:#87ABD5}
