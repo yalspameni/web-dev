@@ -1,1 +1,40 @@
+li {
+  list-style-type: none;
+  text-align:left;
+  font-size:20px;
+}
+
+li button {
+  background-color:rgba(0,0,0,0);
+  border:0px;
+  padding-right:5px;
+  font-family: Griffy;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: Griffy;
+  font-size:40px;
+}
+
+#item-input {
+ width:290px;
+  padding:5px;
+}
+
+#content {
+  text-align: center;
+  font-family: Griffy;
+  font-size:25px;
+}
+
+button {
+  font-family: Griffy;
+  border-radius:4px;
+}
+
+body {
+ background-color: #CF5EF2;
+}
 
