@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>
+      NE Calc
+    </title>
+    <link rel="stylesheet" href="ne-calc-styles.css">
+  </head>
+  
+  <body>
+    
+    <h1>NE Calculator</h1>
+    
+    <div id="directions">
+    <p>This applet takes a two-player game in normal form and computes pure-strategy Nash Equilibria using Best Response [BR]</p>
+    <p>To use the calculator, begin by entering the number of pure strategies available to player 1 and the number of pure strategies available to player 2. Then press Go. On the next screen, enter the payoff pairs for each outcome and press compute.</p>
+    </div>
+    
+    <div id="input-grp">
+    <label for="p1-strats">Number of Pure Strats for P1</label>
+      <input id="p1-strats" type="number" min="1" max="8">
+      <br>
+      <br>
+    <label for="p2-strats">Number of Pure Strats for P2</label>
+      <input id="p2-strats" type="number" min="1" max="8">
+      <br>
+      <br>
+    <button onclick="enterMatrix()">Go</button>
+    </div>
+      
+    <script>
+      function enterMatrix() {
+        //get input values to pass to next page
+        let p1NumStrats = document.getElementById("p1-strats").value;
+        let p2NumStrats = document.getElementById("p2-strats").value;
+        
+        //send user to matrix page
+        navigation.navigate("matrix.html?p1NumStrats=" + p1NumStrats + "&p2NumStrats=" + p2NumStrats);
+      }
+    </script>
+    
+  </body>
+</html>
